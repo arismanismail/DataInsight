@@ -95,11 +95,11 @@ df_penjualan = pd.DataFrame({
 st.sidebar.title("Menu Navigasi")
 menu = st.sidebar.radio(
     "Pilih Halaman:",
-    ["Rumah", "Data Nilai", "Harga Cabai"]
+    ["Rumah-kita", "Data Nilai", "Harga Cabai"]
 )
 
 # ====== Routing ======
-if menu == "Rumah":
+if menu == "Rumah-kita":
     st.title("Dashboard Utama")
     st.write("Silakan pilih menu di sidebar untuk melihat data.")
 
