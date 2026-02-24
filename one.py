@@ -100,7 +100,7 @@ menu = st.sidebar.radio(
 
 # ====== Routing ======
 if menu == "Rumah-kita":
-    st.title("Dashboard Utama")
+    st.title("Data Insight")
     st.write("Silakan pilih menu di sidebar untuk melihat data.")
 
 elif menu == "Data Nilai":
